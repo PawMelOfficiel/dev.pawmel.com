@@ -4,4 +4,4 @@ Site portfolio de l'activité de développement informatique en freelance de Paw
 
 ## Site
 
-📍 [dev.pawmel.com](https://www.dev.pawmel.com)
+📍 [dev.pawmel.com](https://dev.pawmel.com)
