@@ -1,0 +1,26 @@
+{
+  "name": "dev.pawmel.com",
+  "version": "1.0.0",
+  "description": "Site portfolio de l'activité de développement informatique en freelance de PawMel 👩🏻‍💻",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss -i ./assets/css/styles.css -o ./dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PawMelOfficiel/dev.pawmel.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PawMelOfficiel/dev.pawmel.com/issues"
+  },
+  "homepage": "https://github.com/PawMelOfficiel/dev.pawmel.com#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.1"
+  }
+}
