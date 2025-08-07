@@ -1,7 +1,7 @@
 const missions = [
     {
         client: "GoPetSit",
-        job_title: "Développeuse Full Stack",
+        job_title: "Développeuse Full-Stack",
         start_date: "2025-07-08",
         end_date: "2025-07-31",
         link: "https://www.gopetsit.com",
@@ -31,7 +31,7 @@ const missions = [
         end_date: "2025-08-20",
         link: "https://www.gopetsit.com",
         image: "/assets/GPS-logo.png",
-        content: `<p class="font-semibold">🛠️ Astreinte technique & Coordination</p>
+        content: `<p class="font-semibold">🛠️ Astreinte Technique & Coordination</p>
 
             <p>Durant le mois d’août, j’ai assuré une astreinte technique afin de garantir la continuité
             des services et le bon fonctionnement des systèmes en production, tout en coordonnant
