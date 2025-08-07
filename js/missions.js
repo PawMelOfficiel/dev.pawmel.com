@@ -1,6 +1,8 @@
 const missions = [
     {
         client: "GoPetSit",
+        client_name: 'Lucie Sandré',
+        client_job_title: 'Fondatrice',
         job_title: "Développeuse Full-Stack",
         start_date: "2025-07-08",
         end_date: "2025-07-31",
@@ -13,6 +15,9 @@ const missions = [
                 <li>📊 Admin dashboard personnalisé : suivi des ventes, gestion des utilisateurs, contrôle total sur les abonnements et les modules.</li>
                 <li>📈 Optimisation marketing & SEO : configuration de Google Tag Manager, synchronisation des contacts avec Brevo (ex-Sendinblue), indexation du site via Google Search Console.</li>
             </ul>`,
+        review: `<p>J’ai eu le plaisir de travailler avec Clémence durant tout le mois de juillet sur le développement technique de GoPetSit.</p>
+            <p>Elle a mis en place un système complet de gestion des abonnements, un back-office administrable pour les modules d’accompagnement, l’intégration du panier avec remises et codes promo, ainsi que le paramétrage du tracking SEO (Search Console, Tag Manager, etc.).</p>
+            <p>Son travail a été fluide, rigoureux, livré à temps et toujours orienté utilisateur. Je recommande Clémence sans aucune hésitation !</p>`,
         tech_stack: [
             "Symfony",
             "Doctrine",
@@ -26,6 +31,8 @@ const missions = [
     },
     {
         client: "GoPetSit",
+        client_name: 'Lucie Sandré',
+        client_job_title: 'Fondatrice',
         job_title: "Cheffe de Projet Informatique",
         start_date: "2025-08-01",
         end_date: "2025-08-20",
@@ -46,6 +53,10 @@ const missions = [
                 <li>👩🏻‍💻 Réalisation ponctuelle de tâches techniques ou fonctionnelles selon les besoins.</li>
             </ul>
             <p>Un rôle à la croisée de l’opérationnel et du pilotage, en autonomie, garantissant la stabilité du système pendant la période estivale.</p>`,
+        review: `<p>Depuis août, Clémence occupe un rôle central dans le suivi technique et l’amélioration continue du site GoPetSit.</p>
+            <p>Elle intervient avec efficacité sur les bugs remontés, propose des solutions rapidement et s’investit avec sérieux dans la résolution comme dans la prévention des problèmes.</p>
+            <p>C’est également elle qui supervise désormais les futures améliorations fonctionnelles, avec une vraie posture de cheffe de projet : à l’écoute, réactive, disponible, toujours force de proposition.</p>
+            <p>Un vrai pilier pour le bon fonctionnement du site ! Je la recommande sans hésiter 🐾</p>`,
         tech_stack: [
             "Symfony",
             "Doctrine",
@@ -103,6 +114,17 @@ function renderMissions() {
             <div class="text-sm leading-relaxed text-left mb-4 space-y-2">
                 ${mission.content}
             </div>
+
+            ${mission.review && mission.review.trim() !== "" ? `
+                <div class="mt-6 border-t pt-4 text-left">
+                    ${mission.client_name && mission.client_name.trim() !== "" ?
+                    `<p class="font-bold mb-2">L'avis de ${mission.client_name} - ${mission.client_job_title} ${mission.client} :</p>`
+                    : `<p class="font-bold mb-2">L’avis du client :</p>`}
+                    <blockquote class="text-[#2E6E49] italic text-sm space-y-2 mb-2">
+                        ${mission.review}
+                    </blockquote>
+                </div>
+            ` : ""}
 
             <div class="flex flex-wrap gap-2 mt-4">
                 ${mission.tech_stack
