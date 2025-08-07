@@ -876,6 +876,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .bg-\[\#2E6E49\] {
   --tw-bg-opacity: 1;
   background-color: rgb(46 110 73 / var(--tw-bg-opacity));
@@ -964,6 +968,10 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-left {
