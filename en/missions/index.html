@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="alternate" hreflang="fr" href="https://dev.pawmel.com/" />
     <link rel="alternate" hreflang="en" href="https://dev.pawmel.com/en/" />
+    <link rel="alternate" hreflang="fr" href="https://dev.pawmel.com/" />
 
-    <title>PawMelDev - Services</title>
+    <title>PawMelDev - Missions</title>
 
     <meta name="description"
-        content="PawMelDev allie passion du développement web et amour des animaux. Freelance polyvalent, je crée des solutions web sur mesure tout en cultivant une approche humaine, douce et engagée." />
+        content="PawMelDev combines a passion for web development with a love of animals. As a versatile freelancer, I create custom web solutions while maintaining a human, gentle, and committed approach." />
 
     <!-- Open Graph (Facebook, LinkedIn) -->
-    <meta property="og:title" content="PawMelDev - Développement Informatique Freelance" />
+    <meta property="og:title" content="PawMelDev - Freelance Software Engineering" />
     <meta property="og:description"
-        content="PawMelDev allie passion du développement web et amour des animaux. Freelance polyvalent, je crée des solutions web sur mesure tout en cultivant une approche humaine, douce et engagée." />
+        content="PawMelDev combines a passion for web development with a love of animals. As a versatile freelancer, I create custom web solutions while maintaining a human, gentle, and committed approach." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://dev.pawmel.com" />
+    <meta property="og:url" content="https://dev.pawmel.com/en" />
     <meta property="og:image" content="https://dev.pawmel.com/assets/PawMelDev-logo-transparent.png" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="PawMelDev - Développement Informatique Freelance" />
+    <meta name="twitter:title" content="PawMelDev - Freelance Software Engineering" />
     <meta name="twitter:description"
-        content="PawMelDev allie passion du développement web et amour des animaux. Freelance polyvalent, je crée des solutions web sur mesure tout en cultivant une approche humaine, douce et engagée." />
+        content="PawMelDev combines a passion for web development with a love of animals. As a versatile freelancer, I create custom web solutions while maintaining a human, gentle, and committed approach." />
     <meta name="twitter:image" content="https://dev.pawmel.com/assets/PawMelDev-logo-transparent.png" />
 
     <!-- Favicon -->
@@ -43,7 +43,7 @@
         rel="stylesheet">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://dev.pawmel.com" />
+    <link rel="canonical" href="https://dev.pawmel.com/en" />
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -54,17 +54,17 @@
     <header class="flex items-center justify-between py-6 px-6 shadow-md text-[#2E6E49] relative">
         <!-- Logo à gauche -->
         <div class="flex-shrink-0">
-            <a href="/accueil" class="inline-block">
+            <a href="/en/home/" class="inline-block">
                 <img src="/assets/PawMelDev-logo-transparent.png" alt="PawMelDev logo" class="h-12 w-auto" />
             </a>
         </div>
 
         <!-- Nav centré (desktop uniquement à partir de lg) -->
         <nav class="hidden lg:flex space-x-8 absolute left-1/2 transform -translate-x-1/2">
-            <a href="/accueil/" class="hover:underline">Accueil</a>
-            <a href="/missions/" class="hover:underline">Missions</a>
-            <a href="/services/" class=" hover:underline">Services</a>
-            <a href="/parcours/" class="hover:underline">Parcours</a>
+            <a href="/en/home/" class="hover:underline">Home</a>
+            <a href="/en/missions/" class="hover:underline">Missions</a>
+            <a href="/en/services/" class=" hover:underline">Services</a>
+            <a href="/en/career/" class="hover:underline">Career</a>
         </nav>
 
         <!-- Icônes à droite (desktop à partir de lg) -->
@@ -120,10 +120,11 @@
 
             <div id="lang-switcher-burger"></div>
 
-            <a href="/accueil/" class="block text-lg font-semibold py-2 hover:text-[#444444]">Accueil</a>
-            <a href="/missions/" class="block text-lg font-semibold py-2 hover:text-[#444444]">Missions</a>
-            <a href="/services/" class="reservation block text-lg font-semibold py-2 hover:text-[#444444]">Services</a>
-            <a href="/parcours/" class="block text-lg font-semibold py-2 hover:text-[#444444]">Parcours</a>
+            <a href="/en/home/" class="block text-lg font-semibold py-2 hover:text-[#444444]">Home</a>
+            <a href="/en/missions/" class="block text-lg font-semibold py-2 hover:text-[#444444]">Missions</a>
+            <a href="/en/services/"
+                class="reservation block text-lg font-semibold py-2 hover:text-[#444444]">Services</a>
+            <a href="/en/career/" class="block text-lg font-semibold py-2 hover:text-[#444444]">Career</a>
 
             <div class="flex space-x-4 py-4">
                 <!-- Icônes réseaux sociaux -->
@@ -158,85 +159,21 @@
 
     <main
         class="text-[#444444] flex-grow max-w-4xl mx-auto py-16 px-4 text-center flex flex-col justify-center items-center">
-        <h1 class="font-montserrat text-[#2E6E49] text-3xl mb-4">Services Proposés</h1>
-        <p class="text-center text-lg mb-8">
-            Du code sur mesure, une oreille attentive et une patte de douceur.<br />
-            Voici comment je peux vous accompagner :
-        </p>
-
-        <div class="bg-white rounded-lg shadow-sm p-4 mb-12 text-lg space-y-2">
-            <p class="text-center">
-                Ingénieure en informatique de formation, je suis spécialisée en développement full-stack.
-            </p>
-            <p class="text-center">
-                J’ai l’habitude de travailler avec une grande diversité de technologies et de frameworks, comme
-                <span class="font-medium text-[#2E6E49]">React</span>,
-                <span class="font-medium text-[#2E6E49]">Angular</span>,
-                <span class="font-medium text-[#2E6E49]">Angular.js</span>,
-                <span class="font-medium text-[#2E6E49]">Symfony</span>,
-                <span class="font-medium text-[#2E6E49]">Twig</span>,
-                <span class="font-medium text-[#2E6E49]">Django</span>,
-                <span class="font-medium text-[#2E6E49]">Flask</span>,
-                <span class="font-medium text-[#2E6E49]">MySQL</span>,
-                <span class="font-medium text-[#2E6E49]">PostgreSQL</span> ou encore
-                <span class="font-medium text-[#2E6E49]">Docker</span>.
-            </p>
-            <p>
-                Je m’adapte facilement à toute stack technique, que ce soit pour du développement, de la reprise de
-                projet ou de l’intégration dans une équipe existante.
-            </p>
-        </div>
-
-        <section class="grid md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-lg font-montserrat font-semibold text-[#2E6E49] mb-2">🌐 Développement web</h2>
-                <p>Création ou refonte de sites web modernes, rapides et accessibles. Que ce soit pour une vitrine, un
-                    blog, une application ou une boutique, je conçois des solutions uniques adaptées à vos besoins.</p>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-lg font-montserrat font-semibold text-[#2E6E49] mb-2">🧭 Accompagnement de projet</h2>
-                <p>Besoin d’un regard expert pour structurer votre projet digital ? Je vous accompagne dans la
-                    réflexion, la planification, le choix des technologies et la coordination avec d’autres acteurs du
-                    projet.</p>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-lg font-montserrat font-semibold text-[#2E6E49] mb-2">🔧 Maintenance & évolutions</h2>
-                <p>Suivi, mises à jour, corrections de bugs, ajout de nouvelles fonctionnalités : je veille sur votre
-                    site comme on veille sur un animal de compagnie... avec attention, patience et rigueur.</p>
-            </div>
-        </section>
-
-        <div class="mt-16 text-center">
-            <h2 class="text-2xl font-bold font-montserrat text-[#2E6E49] mb-2">Un besoin spécifique ?</h2>
-            <p class="text-lg mb-4">Je suis toujours ouverte aux projets atypiques ou engagés, notamment dans le monde
-                animalier.</p>
-
-            <a href="mailto:pawmelofficiel@gmail.com"
-                class="inline-flex items-center gap-2 bg-[#2E6E49] font-semibold text-white text-lg px-6 py-3 rounded-full hover:bg-[#245f3d] transition">
-
-                <!-- Icone Mail SVG -->
-                <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true">
-                    <path
-                        d="M2 6a2 2 0 012-2h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6zm2 0v.01L12 13l8-6.99V6H4zm16 12V8l-7.5 6.52a.75.75 0 01-.97 0L4 8v10h16z" />
-                </svg>
-                Discutons ensemble
-            </a>
-        </div>
+        <h1 class="font-montserrat text-[#2E6E49] text-3xl mb-6">Carried out Missions</h1>
+        <div id="missions-container" class="w-full space-y-8"></div>
     </main>
 
     <footer class="bg-[#A7C9A1] text-[#444444] py-6 px-6">
         <!-- Ligne droits réservés centrée -->
         <div class="text-center mt-6">
             <p class="mb-1">
-                &copy; <span id="year"></span> PawMel - Tous droits réservés,
+                &copy; <span id="year"></span> PawMel - All rights reserved,
                 SIRET : 988 393 039 00017
             </p>
         </div>
     </footer>
 
+    <script src="/js/missions.js"></script>
     <script src="/js/burger-menu.js"> </script>
     <script src="/js/year.js"></script>
     <script src="/js/lang-switcher.js"></script>
