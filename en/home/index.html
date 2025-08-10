@@ -185,16 +185,27 @@
 
     <main
         class="text-[#444444] flex-grow max-w-4xl mx-auto py-16 px-4 text-center flex flex-col justify-center items-center">
-        <h1 class="font-montserrat text-[#2E6E49] text-4xl mb-2">Welcome to PawMel<span
-                class="text-[#444444]">Dev</span></h1>
-        <p class="font-sans text-lg mb-6 max-w-xl mx-auto italic">
-            Hands on the keyboard, a paw in the animal world : here is <strong class="text-[#2E6E49]">PawMel<span
-                    class="text-[#444444]">Dev</span></strong>'s balance.
-        </p>
-        <p class="font-sans text-lg mb-6 max-w-xl mx-auto">
-            As a freelance web developer, I combine technical rigor and a love for animals to create unique, human, and
-            committed digital solutions.
-        </p>
+        <h1 class="font-montserrat text-[#2E6E49] text-4xl mb-2">
+            Welcome to PawMel<span class="text-[#444444]">Dev</span>
+        </h1>
+        <div class="mb-8 mt-8 flex flex-col gap-2 lg:flex-row lg:gap-6 items-center lg:justify-between">
+            <!-- Bloc texte -->
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <p class="font-sans text-lg mb-6 lg:max-w-xl lg:mx-auto italic">
+                    Hands on the keyboard, a paw in the animal world : here is <strong
+                        class="text-[#2E6E49]">PawMel<span class="text-[#444444]">Dev</span></strong>'s balance.
+                </p>
+                <p class="font-sans text-lg mb-6 lg:max-w-xl lg:mx-auto">
+                    As a freelance web developer, I combine technical rigor and a love for animals to create unique,
+                    human, and committed digital solutions.
+                </p>
+            </div>
+
+            <!-- Bloc image -->
+            <div class="lg:w-1/2 flex justify-center lg:justify-end">
+                <img src="/assets/pp.jpg" alt="Profile picture" class="max-w-xs rounded-xl shadow-lg">
+            </div>
+        </div>
         <a href="/en/services/"
             class="bg-[#2E6E49] font-semibold text-lg text-white px-6 py-3 rounded-xl hover:bg-[#25603e] transition">
             Discover my services
