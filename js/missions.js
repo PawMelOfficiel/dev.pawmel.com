@@ -111,7 +111,7 @@ const missions = [
                     <li>🚀 Refonte complète du site (textes + visuels) et amélioration du design global.</li>
                     <li>🤝🏻 Coordination des intervenants externes et réalisation de reviews pour la mise en production.</li>
                     <li>
-                        ⚙️ Développement de nouvelles fonctionnalités, incluant notamment une page de contact ave
+                        ⚙️ Développement de nouvelles fonctionnalités, incluant notamment une page de contact avec
                         prise de rendez-vous ou envoi d’email direct, la refonte de la page d’accueil avec un
                         affichage animé des étapes de réservation, une meilleure gestion graphique des erreurs,
                         une optimisation du calcul et de l'affichage des tarifs et une amélioration de
@@ -144,8 +144,22 @@ const missions = [
                     A versatile role, combining project management, development, and support, ensuring reliability
                     and a smooth user experience during a critical period.
                 </p>`,
-        review: ``,
-        review_en: ``,
+        review: `<p>Clémence a livré un très gros travail de refonte produit en un temps record : nouveaux textes & visuels,
+                page de contact, homepage repensée avec un parcours animé des étapes de réservation, et UX d'erreurs
+                beaucoup plus claire. Elle a aussi optimisé le calcul et l’affichage des tarifs, ce qui a réduit les
+                incompréhensions côté utilisateur.</p>
+                <p>J’apprécie particulièrement sa capacité à coordonner les intervenants et à livrer proprement 
+                (tests, détails UI, etc.).</p>
+                <p>Une développeuse-cheffe de projet fiable, structurée et orientée expérience utilisateur :
+                on gagne en cohérence et en vitesse à chaque itération. Je recommande sans réserve.</p>`,
+        review_en: `<p>Clémence delivered an impressive product redesign in record time: new texts & visuals, 
+                    a contact page, a completely reimagined homepage with an animated booking flow, and a 
+                    much clearer error UX. She also optimized the pricing calculation and display, which reduced
+                    user misunderstandings.</p>
+                    <p>I particularly appreciate her ability to coordinate contributors and deliver clean work
+                    (testing, UI details, etc.).</p>
+                    <p>A reliable and structured developer-project manager with a strong user experience focus:
+                    each iteration brings more consistency and speed. I wholeheartedly recommend her.</p>`,
         tech_stack: ["Symfony", "Doctrine", "Twig", "PHP", "JavaScript", "MySQL"],
     },
 ];
