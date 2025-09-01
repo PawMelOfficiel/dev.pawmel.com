@@ -37,8 +37,11 @@ const missions = [
             "PHP",
             "JavaScript",
             "MySQL",
+            "Tailwind CSS",
             "Stripe",
             "Brevo",
+            "Google Search Console",
+            "Google Tag Manager"
         ],
     },
     {
@@ -89,7 +92,15 @@ const missions = [
                 <p> She efficiently handles reported bugs, quickly proposes solutions, and is seriously committed to both solving and preventing issues.</p>
                 <p>She now also supervises future functional improvements, with a true project manager mindset: attentive, responsive, available, and always proactive.</p>
                 <p>A true pillar for the smooth operation of the site! I highly recommend her 🐾</p>`,
-        tech_stack: ["Symfony", "Doctrine", "Twig", "PHP", "JavaScript", "MySQL"],
+        tech_stack: [
+            "Symfony",
+            "Doctrine",
+            "Twig",
+            "PHP",
+            "JavaScript",
+            "MySQL",
+            "Tailwind CSS"
+        ],
     },
     {
         client: "GoPetSit",
@@ -160,7 +171,15 @@ const missions = [
                     (testing, UI details, etc.).</p>
                     <p>A reliable and structured developer-project manager with a strong user experience focus:
                     each iteration brings more consistency and speed. I wholeheartedly recommend her.</p>`,
-        tech_stack: ["Symfony", "Doctrine", "Twig", "PHP", "JavaScript", "MySQL"],
+        tech_stack: [
+            "Symfony",
+            "Doctrine",
+            "Twig",
+            "PHP",
+            "JavaScript",
+            "MySQL",
+            "Tailwind CSS"
+        ],
     },
 ];
 
