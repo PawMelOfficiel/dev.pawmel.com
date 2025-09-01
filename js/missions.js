@@ -181,6 +181,62 @@ const missions = [
             "Tailwind CSS"
         ],
     },
+    {
+        client: "GoPetSit",
+        client_name: "Lucie Sandré",
+        client_job_title: "Fondatrice",
+        client_job_title_en: "Founder",
+        job_title: "Cheffe de Projet Informatique",
+        job_title_en: "IT Project Manager",
+        start_date: "2025-09-01",
+        end_date: "2025-09-18",
+        link: "https://www.gopetsit.com",
+        image: "/assets/GPS-logo.png",
+        content: `<p class="font-semibold">💳 Intégration & Optimisation du module de paiement Stripe</p>
+
+                <p>En septembre, j’ai poursuivi mon rôle de Cheffe de Projet Informatique pour GoPetSit en me concentrant sur la partie paiement.</p>
+
+                <p>Parmi mes réalisations :</p>
+                <ul>
+                    <li>🔎 Implémentation d’un filtre affichant uniquement les PetSitters ayant activé leur compte Stripe, afin de garantir des réservations sécurisées.</li>
+                    <li>📢 Refonte du message d’activation Stripe pour les PetSitters : nouveau wording + redirection vers une page explicative dédiée.</li>
+                    <li>💰 Mise en place du paiement direct des PetSitters lors d’une réservation, renforçant la fiabilité et la fluidité des transactions.</li>
+                    <li>🎟️ Développement d’un système de code promotionnel limité aux 200 premières réservations.</li>
+                    <li>🛠️ Astreinte technique et interventions rapides en cas de besoin.</li>
+                </ul>
+                <p>
+                    Un travail technique centré sur l’expérience utilisateur et la fiabilité des paiements,
+                    contribuant à la croissance et à la professionnalisation de la plateforme.
+                </p>`,
+        content_en: `<p class="font-semibold">💳 Integration & Optimization of the Stripe Payment Module</p>
+
+                <p>In September, I continued my role as IT Project Manager for GoPetSit, focusing on the payment system.</p>
+
+                <p>Main achievements included:</p>
+                <ul>
+                    <li>🔎 Implementation of a filter displaying only PetSitters who activated their Stripe account, ensuring secure bookings.</li>
+                    <li>📢 Redesign of the Stripe activation message for PetSitters: updated wording + redirection to a dedicated explanatory page.</li>
+                    <li>💰 Implementation of direct payments to PetSitters upon booking, improving reliability and transaction flow.</li>
+                    <li>🎟️ Development of a promotional code system limited to the first 200 bookings.</li>
+                    <li>🛠️ On-call technical support and fast interventions when needed.</li>
+                </ul>
+                <p>
+                    A technical contribution focused on user experience and payment reliability,
+                    supporting the growth and professionalization of the platform.
+                </p>`,
+        review: ``,
+        review_en: ``,
+        tech_stack: [
+            "Symfony",
+            "Doctrine",
+            "Twig",
+            "PHP",
+            "JavaScript",
+            "MySQL",
+            "Tailwind CSS",
+            "Stripe"
+        ],
+    },
 ];
 
 function renderMissions() {
