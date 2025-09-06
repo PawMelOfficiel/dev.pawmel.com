@@ -228,6 +228,7 @@ const missions = [
         review_en: ``,
         tech_stack: [
             "Symfony",
+            "Docker",
             "Doctrine",
             "Twig",
             "PHP",
