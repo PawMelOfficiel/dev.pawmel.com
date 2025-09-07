@@ -198,6 +198,7 @@ const missions = [
 
                 <p>Parmi mes réalisations :</p>
                 <ul>
+                    <li>📦 Conteneurisation du serveur de base de données de test.</li>
                     <li>🔎 Implémentation d’un filtre affichant uniquement les PetSitters ayant activé leur compte Stripe, afin de garantir des réservations sécurisées.</li>
                     <li>📢 Refonte du message d’activation Stripe pour les PetSitters : nouveau wording + redirection vers une page explicative dédiée.</li>
                     <li>💰 Mise en place du paiement direct des PetSitters lors d’une réservation, renforçant la fiabilité et la fluidité des transactions.</li>
@@ -214,6 +215,7 @@ const missions = [
 
                 <p>Main achievements included:</p>
                 <ul>
+                    <li>📦 Dockerization of the test database server.</li>
                     <li>🔎 Implementation of a filter displaying only PetSitters who activated their Stripe account, ensuring secure bookings.</li>
                     <li>📢 Redesign of the Stripe activation message for PetSitters: updated wording + redirection to a dedicated explanatory page.</li>
                     <li>💰 Implementation of direct payments to PetSitters upon booking, improving reliability and transaction flow.</li>
@@ -227,8 +229,8 @@ const missions = [
         review: ``,
         review_en: ``,
         tech_stack: [
-            "Symfony",
             "Docker",
+            "Symfony",
             "Doctrine",
             "Twig",
             "PHP",
