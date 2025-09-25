@@ -226,8 +226,16 @@ const missions = [
                     A technical contribution focused on user experience and payment reliability,
                     supporting the growth and professionalization of the platform.
                 </p>`,
-        review: ``,
-        review_en: ``,
+        review: `<p>J'ai collaboré avec Clémence sur la mise en place du module Stripe pour GoPetSit et ça s'est super bien passé !</p> 
+                <p>Elle est réactive, trouve vite des solutions et ça nous a permis d'avoir un système de paiement fiable et fluide.</p>
+                <p>J'ai vraiment apprécié sa disponibilité et son efficacité, ça a bien fait avancer le projet. 
+                    Elle a su poser des bases solides pour un site fonctionnel et je la remercie pour ça !
+                </p>`,
+        review_en: `<p>I collaborated with Clémence on setting up the Stripe module for GoPetSit, and it went really well!</p> 
+                <p>She is responsive, quickly finds solutions, and this allowed us to have a reliable and smooth payment system.</p>
+                <p>I truly appreciated her availability and efficiency, which really helped move the project forward. 
+                    She laid solid foundations for a functional website, and I thank her for that!
+                </p>`,
         tech_stack: [
             "Docker",
             "Symfony",
